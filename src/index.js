@@ -1,4 +1,5 @@
 import  ReactDOM  from "react-dom";
 import 'bootstrap/dist/css/bootstrap.min.css'
+import App from "./App";
 
-ReactDOM.render(<div className="alert alert-info">Hello u</div>, document.getElementById("root"))
+ReactDOM.render(<App></App>, document.getElementById("root"))
